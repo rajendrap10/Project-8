@@ -1,0 +1,83 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Roboto", serif;
+    background-image: url("../images/backcover.svg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-position: right;
+}
+
+.main-div {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+nav {
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.nav-item{
+    list-style: none;
+    margin: 20px;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signin-btn {
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    background-image: linear-gradient(to right, #965CF2, #FC8ADD);
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    margin-right: 100px;
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section {
+    margin-top: 100px;
+}
+
+.left-section h1{
+    font-size: 72px;
+    color: #3E4794;
+}
+
+.left-section h4 {
+    font-size: 18px;
+    color: #3E4794;
+    width: 300px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.learn-more-btn {
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #965CF2, #FC8ADD);
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    margin-top: 50px;
+}
+
+.imgs-div {
+    padding-left: 100px;
+}
+
+
