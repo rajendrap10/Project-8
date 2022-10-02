@@ -80,6 +80,10 @@ nav {
     padding-left: 100px;
 }
 
+.bar {
+    display: none;
+}
+
 
 @media screen and (max-width:600px) {
 
